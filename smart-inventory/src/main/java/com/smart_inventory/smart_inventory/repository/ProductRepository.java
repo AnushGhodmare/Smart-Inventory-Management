@@ -1,0 +1,12 @@
+package com.smart_inventory.smart_inventory.repository;
+
+import com.smart_inventory.smart_inventory.model.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
+
+    List<Product> findByNameContainingIgnoreCase(String name);
+
+}
