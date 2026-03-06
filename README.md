@@ -1,4 +1,3 @@
-# Smart-Inventory-Management
 # Smart Inventory Management System
 
 A simple inventory management system built using **Java, Spring Boot, MySQL, and Thymeleaf**.
