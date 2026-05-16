@@ -22,7 +22,17 @@ A simple inventory management system built using **Java, Spring Boot, MySQL, and
 
 ## Screenshots
 
-(Add screenshots of dashboard and product page)
+### Dashboard
+
+![Dashboard](Screenshot%202026-05-16%20185721.png)
+
+### Manage Products
+
+![Manage Products](Screenshot%202026-05-16%20185742.png)
+
+### Add Product
+
+![Add Product](Screenshot%202026-05-16%20185817.png)
 
 ## How to Run
 
@@ -31,11 +41,5 @@ A simple inventory management system built using **Java, Spring Boot, MySQL, and
 3. Run the Spring Boot application
 4. Open browser at:
 
+```bash
 http://localhost:8080
-
-## Future Improvements
-
-* Low stock alerts
-* AI based inventory forecasting
-* Charts and analytics
-* Authentication (Admin login)
